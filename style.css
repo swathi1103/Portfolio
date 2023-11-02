@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(229, 245, 245);
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+
+#circle{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(139, 143, 233);
+    border-radius: 100%;
+}
+#name{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+}
+@media (max-width:768px) {
+    #name{
+        font-size: 12px;
+    }   
+}
+
+#header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+#nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    
+
+#atag{
+     text-decoration: none;
+     font-family: 'Caveat', cursive;
+     font-family: 'Handlee', cursive;
+     font-family: 'Playpen Sans', cursive;
+     font-family: 'Shadows Into Light', cursive;
+   font-weight: 300px;
+   color: black;
+}
+@media (max-width:768px) {
+    #atag{
+        font-size: 12px;
+    }
+    
+}
+#line{
+    width: 1.5px;
+    height: 20px;
+    background-color: black;
+}
+
+@media (max-width:768px) {
+    #line{
+        height: 15px;
+    }
+    
+}
+
+#pic{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+@media (max-width:768px) {
+ #pic{
+    height: 170px;
+    width: 170px;
+ }   
+}
+
+#main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#hello{
+    font-size: 100px;
+    font-family: 'Caveat', cursive;
+    margin-left: -7px;
+}
+
+@media (max-width:768px) {
+    #hello{
+        font-size: 50px;
+        margin-left: 0.8px;
+    }
+    
+}
+
+#tag{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+font-family: 'Playpen Sans', cursive;
+    font-weight: 10px ;
+}
+
+@media (max-width:768px) {
+    #tag{
+        font-size: 20px;
+    }
+    
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+#para{
+    max-width: 300px;
+    font-family: 'Caveat', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+    font-weight: lighter;
+    margin-top: 5px;
+
+}
+
+@media (max-width:768px) {
+    #para{
+        font-size: 15px;
+        max-width: 170px;
+    }
+    
+}
+
+
+
+
+#button-1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 100%;
+    border-width: 0.5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#button-1:hover{
+    background-color: rgb(229, 245, 245);
+    transition: all;
+    transition-duration:400ms ;
+
+}
+
+@media (max-width:768px) {
+    #button-1{
+        height: 70px;
+        width: 70px;
+        font-size: 13px;
+    }
+    
+}
+
+#button-2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(203, 233, 159);
+    border-radius: 100%;
+    border-width: 0.5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Caveat', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+    cursor: pointer;
+}
+
+#button-2:hover{
+    background-color: rgb(229, 245, 245);
+    transition: all;
+    transition-duration:400ms ;
+
+}
+
+
+@media (max-width:768px) {
+    #button-2{
+        height: 70px;
+        width: 70px;
+        font-size: 13px;
+        
+
+    }
+    
+}
+
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+
+@media (max-width:768px) {
+    #footer{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+#heading{
+    font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-size: 25px;
+}
+
+@media (max-width:768px) {
+    #heading{
+        font-size: 15px;
+    }
+    
+}
+
+#details{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+@media (max-width:768px) {
+    #details{
+        font-size: 13px;
+    }
+    
+}
+
+#twitter{
+    height: 35px;
+    width: 35px;
+}
+
+@media (max-width:768px) {
+    #twitter{
+        height: 20px;
+        width: 20px;
+    }
+    
+}
+
+#linkedin{
+    height: 35px;
+    width: 35px;
+
+}
+
+@media (max-width:768px) {
+    #linkedin{
+        height: 20px;
+        width: 20px;
+    }
+    
+}
