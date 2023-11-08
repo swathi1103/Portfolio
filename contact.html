@@ -26,8 +26,55 @@
     </header>
 
 
-    <main>
+    <main id="contact-main">
         <h1 id="title">Contact</h1>
+        <p id="tagline2">"Looking forward to hearing from you!"</p>
+        <div id="maindivforhalf">
+        <div id="div1">
+            <div id="call">
+            <img id="call-logo" src="call-logo.png" alt="">
+            <h2 id="contact-phone">Phone</h2>
+        </div>
+            <p id="contact-number">+91 9392689450</p>
+        <div id="mail">
+            <img id="email-logo" src="email-logo.png" alt="">
+            <h2 id="contact-email">Email</h2>
+        </div>
+            <p id="contact-mail">swathigottipati04@gmail.com</p>
+        </div>
+
+        <div id="div2">
+            <div id="user-details-form">
+                <form action="">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                    
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="success-message" style="display: none; color: rgb(33, 48, 33);">Successfully submitted!</p>
+
+            </div>
+        </div>
+    </div>
     </main>
+    <script>
+        // JavaScript function to show success message
+        function showSuccessMessage() {
+            document.getElementById("success-message").style.display = "block";
+        }
+    
+        // Add an event listener to the button
+        document.querySelector("#user-details-form button[type='submit']").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default form submission
+            showSuccessMessage(); // Call the function to display the success message
+        });
+    </script>
+   
 </body>
 </html>

@@ -439,12 +439,20 @@ font-size: 25px;
     max-width: 600px;
   
   }
+
+  #resume-heading3 {
+    font-family: "Noto Sans", sans-serif;
+    max-width: 600px;
+    font-size: 28px;
+  
+  }
   
 
   #resume-heading2{
     margin-top:20px;
     font-family: "Noto Sans", sans-serif;
     max-width: 600px;
+    font-size: 28px;
   }
 
   @media (max-width: 768px) {
@@ -498,4 +506,135 @@ font-size: 25px;
 #contact-header{
     text-decoration: none;
 }
+
+#tagline2{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+margin-bottom: 50px;
+
+}
+
+#contact-main{
+    padding: 60px;
+}
   
+#contact-phone{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 550;
+margin-left: 5px;
+
+}
+
+#contact-email{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 550;
+margin-left: 5px;
+}
+
+#contact-number{
+    font-size: 25px;
+
+}
+
+#contact-mail{
+    font-size: 25px;
+  
+}
+
+#call-logo{
+    height: 25px;
+    width: 25px;
+}
+
+#call{
+    display: flex;
+    align-items: center;
+    
+}
+
+#mail{
+    display: flex;
+    align-items: center;
+    
+}
+
+#email-logo{
+    height:25px ;
+    width: 25px;
+    margin-top:20px ;
+}
+
+#div1{
+    height: 300px;
+    width: 40%;
+    padding: 70px;
+}
+
+#div2{
+    height:300px ;
+    width: 60%;
+    
+}
+
+#maindivforhalf{
+    display: flex;
+    align-items: center;
+}
+
+
+#user-details-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Style the form elements */
+#user-details-form input[type="text"],
+#user-details-form input[type="tel"],
+#user-details-form input[type="email"],
+#user-details-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+#user-details-form button[type="submit"] {
+    background-color: #081412;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Add some spacing for readability */
+#user-details-form input[type="text"],
+#user-details-form input[type="tel"],
+#user-details-form input[type="email"],
+#user-details-form button[type="submit"] {
+    margin-bottom: 10px;
+}
