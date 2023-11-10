@@ -503,6 +503,8 @@ font-size: 25px;
 }
  
 
+
+
 #contact-header{
     text-decoration: none;
 }
@@ -519,6 +521,13 @@ font-family: 'Playpen Sans', cursive;
 font-family: 'Shadows Into Light', cursive;
 margin-bottom: 50px;
 
+}
+
+@media (max-width:768px) {
+    #tagline2{
+        font-size: 13px;
+    }
+    
 }
 
 #contact-main{
@@ -538,6 +547,13 @@ margin-left: 5px;
 
 }
 
+@media (max-width:768px) {
+    #contact-phone{
+        font-size: 25px;
+    }
+    
+}
+
 #contact-email{
     font-size: 30px;
     margin-top: 20px;
@@ -551,9 +567,22 @@ font-weight: 550;
 margin-left: 5px;
 }
 
+@media (max-width:768px) {
+    #contact-email{
+        font-size: 25px;
+    }
+    
+}
+
 #contact-number{
     font-size: 25px;
 
+}
+
+@media (max-width:768px) {
+#contact-number{
+    font-size:20px;
+}
 }
 
 #contact-mail{
@@ -561,9 +590,22 @@ margin-left: 5px;
   
 }
 
+@media (max-width:768px) {
+    #contact-mail{
+        font-size:20px;
+    }
+    }
+
 #call-logo{
     height: 25px;
     width: 25px;
+}
+@media (max-width:768px) {
+    #call-logo{
+        height: 21px;
+        width: 21px;
+    }
+    
 }
 
 #call{
@@ -584,10 +626,25 @@ margin-left: 5px;
     margin-top:20px ;
 }
 
+@media (max-width:768px) {
+    #email-logo{
+        height: 21px;
+        width: 21px;
+    }
+    
+}
+
 #div1{
     height: 300px;
     width: 40%;
     padding: 70px;
+}
+
+@media (max-width:768px) {
+    #div1{
+        height: 200px;
+    }
+    
 }
 
 #div2{
@@ -610,6 +667,8 @@ margin-left: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
+
+
 
 /* Style the form elements */
 #user-details-form input[type="text"],
@@ -638,3 +697,54 @@ margin-left: 5px;
 #user-details-form button[type="submit"] {
     margin-bottom: 10px;
 }
+
+
+/* styles.css */
+
+
+
+/* Add media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    #div1,
+    #div2 {
+        padding: 10px;
+    }
+
+    #user-details-form {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    #maindivforhalf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #div1,
+    #div2 {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    #div1 {
+        background-color: #f0f0f0; /* Optional: Add a background color to div1 for better visibility */
+    }
+    
+    #user-details-form {
+        width: 100%;
+        max-width: 600px; /* Adjust the max-width based on your design */
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
